@@ -3,7 +3,9 @@
     "allow": [
       "Bash(node:*)",
       "Bash(mkdir:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(venv\\\\Scripts\\\\python.exe backend/app/db/init_db.py:*)",
+      "Bash(venv/Scripts/python.exe backend/app/db/init_db.py:*)"
     ],
     "deny": [],
     "ask": []

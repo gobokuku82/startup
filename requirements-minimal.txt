@@ -1,0 +1,29 @@
+# Minimal requirements for quick start
+# Core essentials only
+
+# FastAPI
+fastapi
+uvicorn[standard]
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+python-dotenv
+
+# LangGraph (let pip resolve versions)
+langgraph
+langchain
+langchain-openai
+openai
+
+# Database
+sqlalchemy
+aiosqlite
+
+# Essential tools
+pydantic
+pydantic-settings
+jinja2
+structlog
+
+# Development
+pytest

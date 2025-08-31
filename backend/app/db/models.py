@@ -170,7 +170,7 @@ class Document(Base):
     status = Column(String(50), nullable=False)  # draft, reviewing, approved, archived
     current_version = Column(Integer, default=1)
     storage_uri = Column(Text)
-    metadata = Column(JSON)  # Additional document metadata
+    doc_metadata = Column(JSON)  # Additional document metadata
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
     
